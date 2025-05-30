@@ -1,6 +1,16 @@
 
 # Memory Game
 
+## DOCKER VERSION
+
+Place-toi dans le dossier où se trouve le dockerfile puis exécute :
+
+docker build -t memory-app .
+
+Pour lancer le conteneur :
+
+docker run -p 5173:5173 memory-app
+
 ## Description
 
 Ce projet est une implémentation du jeu classique **Memory** en utilisant **ReactJS**. Le but du jeu est de retrouver toutes les paires de cartes identiques en les retournant deux par deux. Si les cartes correspondent, elles restent visibles ; sinon, elles se retournent face cachée. Le jeu est gagné lorsque toutes les paires sont trouvées.
